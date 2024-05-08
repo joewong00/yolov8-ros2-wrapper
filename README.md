@@ -1,4 +1,7 @@
 # YOLOv8 ROS2 Wrapper
+
+**NOTE**: This package is tested on Jetson Xavier AGX with Jetpack 5.1.3, ROS2 Foxy and Python3.8 using YOLOv8 object detection model only.
+
 ## System Requirement
 1. Python >= 3.8
 2. ROS2 Foxy/Humble
