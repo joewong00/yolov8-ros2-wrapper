@@ -14,7 +14,7 @@ def generate_launch_description():
             executable='image_detector',  
             output='screen',
             parameters=[{
-                'model_file_path': os.path.join(project_package,'weights/best.torchscript'),  
+                'model_file_path': os.path.join(project_package,'weights/yolov8s.torchscript'),  
                 'data_path': os.path.join(project_package,'weights/coco.names'), 
                 'confidence_threshold': 0.4,  
                 'iou_threshold': 0.5, 
